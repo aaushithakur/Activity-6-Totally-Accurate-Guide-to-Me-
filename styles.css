@@ -14,8 +14,7 @@
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-#origin, #abilities, #facts, #survival, #weaknesses, #ambitions { scroll-margin-top: 24px; }
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); font-size: 16px; line-height: 1.7; }
 ::selection { color: var(--paper); background: var(--ink); }
 a { color: inherit; text-underline-offset: 5px; }
