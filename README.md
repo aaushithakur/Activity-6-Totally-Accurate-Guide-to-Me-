@@ -1,8 +1,9 @@
 # The Aaushi Archive
 
-A portfolio-based guide to **Aaushi Thakur: composer, visual storyteller, and technical creator**. Created for **DG8002 · Activity 6: Totally Accurate Guide to Me**.
+The Aaushi Archive is a two-page guide to my creative work, from experimenting with Photoshop at thirteen to writing and producing songs in Logic Pro.
 
-The biography, skills, projects, work experience, ambitions, and visual theme reflect Aaushi’s creative practice. Aaushi supplied the personal weakness directly: dreaming big can sometimes lead to impractical ideas. The website uses a charcoal background, ivory serif headings, teal links, warm gold accents, fine frames, and repeated cross motifs. The archive framing retains the assignment’s playful character.
+I created the site for DG8002 Activity 6. For Activity 7, I kept the charcoal and gold design, added a gold border beside my origin story, and changed the skills section so each skill gets its own row on a phone.
+
 
 ## Open the website
 
@@ -21,7 +22,7 @@ Then visit <http://localhost:8000>. Stop the server with Ctrl+C.
 ```text
 index.html                 Homepage: introduction, origin story, abilities
 Classified.html            Second page: facts, survival guide, weaknesses, ambitions
-styles.css                 Shared responsive design and print styles
+style.css                  Shared responsive design and print styles
 assets/aaushi-white-fur-portrait.jpg Main portrait of Aaushi
 assets/portfolio-photoshop.jpg      Additional Photoshop artwork
 assets/portfolio-change-session.jpg Logic Pro session for “Change”
