@@ -124,7 +124,9 @@
         <p class="footer-disclaimer">Biography, artwork, and visual direction adapted from my creative portfolio. <a href="https://github.com/aaushithakur">GitHub</a> <a href="https://www.linkedin.com/in/aaushi-thakur/">LinkedIn</a></p>
       </footer>
     </div>
-  
+  <h2>Your receipt</h2>
+<div id="receipt-items"></div>
+<p id="receipt-total"></p>
   <script>
   const order = [];
 
@@ -154,9 +156,17 @@
   add_item_to_order(menu["Burger"]);
   add_item_to_order(menu["Fries"]);
   add_item_to_order(menu["Drink"]);
+document.getElementById("receipt-items").innerHTML = `
+  <p>Burger: $${menu["Burger"]}</p>
+  <p>Fries: $${menu["Fries"]}</p>
+  <p>Drink: $${menu["Drink"]}</p>
+`;
 
+document.getElementById("receipt-total").textContent =
+  `Total: $${calculate_total(order)}`; 
   console.log(order);
   console.log("Total: " + calculate_total(order));
 </script>
   </body>
 </html>
+
